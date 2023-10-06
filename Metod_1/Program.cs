@@ -5,11 +5,8 @@ int friends = 2;
 int count = 0;
 int time = 0;
 
-if (distance < 10) 
-    {
-    Console.WriteLine("Собака пробежит один раз");
-    } 
-else
+if (distance > 10) 
+{
     {while (distance>10)
     {
         if(friends == 1)
@@ -25,4 +22,6 @@ else
         count++;
     }
     Console.WriteLine("Собака пробежит "+ count+" раз");
-    }
+    } 
+    } else {
+Console.WriteLine("Собака пробежит один раз");}
