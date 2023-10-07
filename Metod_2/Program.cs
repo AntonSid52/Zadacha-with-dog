@@ -15,7 +15,7 @@ if (distance <= 0)
     Console.WriteLine("Собака не побежит");
     } 
 else
-    {while (distance>10)
+    {while (distance>0)
     {
         if(friends == 1)
         {
